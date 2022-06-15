@@ -6,6 +6,11 @@ h1{
     text-align: center;
 }
 
+.center{
+    margin-top: 140px;
+    text-align: center;
+}
+
 p{
     color: #8b8b8bcc;
     font-family: Verdana;
@@ -18,12 +23,19 @@ button{
 }
 
 .header{
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 0;
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
 }
 li{
+    display: inline;
+    
+    
+}
+
+.menu li{
+    margin: 0 25px;
     display: inline;
 }
 
@@ -45,14 +57,32 @@ li{
 
 .navbar{
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 500;
+    
 }
 
 .actions{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    
+}
+
+.actions > *{
+    
+    margin: 0 10px;
+}
+
+a[href="/login"]{
+    color: #67b54b;
+}
+
+.actions button{
+    color: white;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
